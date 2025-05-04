@@ -69,7 +69,7 @@ Use `Comparator<T>` when:
 - You don’t want to (or can’t) modify the class.
 - You need multiple different orderings.
 
-### Methods
+### Some important Methods
 
 1) `int compare(T o1, T o2)`
 
@@ -213,6 +213,14 @@ System.out.println(items);
 
 
 ```
+
+## Note
+We also have:
+- ComparingInt
+- ComparingLong
+- ComparingDouble
+- and many others
+
 
 # ✅ Final Tips
 - Use Comparable for one consistent, natural order.
